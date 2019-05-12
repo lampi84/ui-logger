@@ -1,0 +1,35 @@
+
+.logPanel{
+    position: absolute;
+    top:20px;
+    right:0px;
+    width: 350px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.logMessage{
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.logMessage.error{
+    border-left:2px solid red;
+}
+
+.logMessage.success{
+    border-left:2px solid greenyellow;
+}
+
+.logMessage.debug{
+    border-left:2px solid orange;
+}
+
+.logMessage.info{
+    border-left:2px solid blue;
+}
